@@ -15,28 +15,28 @@ RSpec.describe "DIVISIONS" do
     expect(subject[0]).to eq ""
   end
 
-  it "has Thousand at index 1" do
-    expect(subject[1]).to eq "Thousand"
+  it "has thousand at index 1" do
+    expect(subject[1]).to eq "thousand"
   end
 
-  it "has Million at index 2" do
-    expect(subject[2]).to eq "Million"
+  it "has million at index 2" do
+    expect(subject[2]).to eq "million"
   end
 
-  it "has Billion at index 3" do
-    expect(subject[3]).to eq "Billion"
+  it "has billion at index 3" do
+    expect(subject[3]).to eq "billion"
   end
 
-  it "has Trillion at index 4" do
-    expect(subject[4]).to eq "Trillion"
+  it "has trillion at index 4" do
+    expect(subject[4]).to eq "trillion"
   end
 
-  it "has Quadrillion at index 5" do
-    expect(subject[5]).to eq "Quadrillion"
+  it "has quadrillion at index 5" do
+    expect(subject[5]).to eq "quadrillion"
   end
 
-  it "has Quintrillion at index 6" do
-    expect(subject[6]).to eq "Quintrillion"
+  it "has quintrillion at index 6" do
+    expect(subject[6]).to eq "quintrillion"
   end
 
   it "is expected to be frozen" do

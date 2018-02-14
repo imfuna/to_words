@@ -11,7 +11,7 @@ RSpec.describe "to_word" do
     end
 
     it "converts '1,000' to `one`" do
-      expect(1_000.to_words).to eq("one Thousand")
+      expect(1_000.to_words).to eq("one thousand")
     end
 
     it "raises error for non-numerical string '1d'" do
